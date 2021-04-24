@@ -1,0 +1,12 @@
+@import "../../../styles/prototype";
+.prototype {
+  @include prototype
+}
+
+
+.gameReviewBlock {
+  height: 300px;
+  margin-top: 10px;
+
+  border-radius: 10px;
+}

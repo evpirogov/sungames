@@ -1,0 +1,12 @@
+@import "./src/styles/prototype";
+
+.prototype{
+  @include prototype;
+}
+
+.gameFrame{
+  width: 950px;
+  height: 535px;
+
+  border-radius: 10px;
+}

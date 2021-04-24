@@ -1,0 +1,36 @@
+.topBar {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: inherit;
+  height: 60px;
+
+  z-index: 100;
+
+  text-align: right;
+  border-radius: 0 0 10px 10px;
+  background: linear-gradient(180deg,
+          rgba(248,191,68,1) 0%,
+          rgba(249,206,76,1) 100%);
+  //background: linear-gradient(180deg, #FFB800 0%, #FFE600 136.25%);
+
+  .topBarItem {
+    display: inline-block;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px orange;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 0px 10px;
+    cursor: pointer;
+  }
+
+  .homeItem {
+    float: left;
+  }
+
+  .menuItem {
+    font-size: 36px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,137 @@
+.white_content {
+    width:100%;
+    display:none;
+    position:absolute;
+    margin: 0 auto;
+    top: 30%;
+    z-index: 1002;
+    overflow: auto;
+}
+
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+
+.dark-matter {
+    margin-left: auto;
+    margin-right: auto;
+    max-width:90%;
+    max-height: 100%;
+    background: #555;
+    padding: 20px 30px 20px 30px;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #D3D3D3;
+    text-shadow: 1px 1px 1px #444;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display:block;
+}
+.dark-matter h1 {
+    display: block;
+}
+.dark-matter h1>span {
+    display: block;
+    font-size: 11px;
+}
+.dark-matter label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.dark-matter label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.dark-matter {
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.dark-matter .button {
+    background: rgba(108,162,68,1);
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #585858;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-shadow: 1px 1px 1px #FFE477;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #3D3D3D;
+    -webkit-box-shadow:1px 1px 1px #3D3D3D;
+    -moz-box-shadow:1px 1px 1px #3D3D3D;
+
+}
+.dark-matter .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+}
+.close {
+    float: right;
+    clear: both;
+    width: 100%;
+    text-align: right;
+    margin: 0 0 6px 0
+}
+
+.close a {
+    color: #F1E9E9;
+    text-decoration: none;
+    font-weight: 700
+}
+.btn{
+    text-align: right;
+}
+.hengpingmubu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #E0E0E0;
+    z-index: 1001;
+    text-align:center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.hengpingImage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hengpingzi{
+    position:relative;
+    text-align:center;
+    display:block;
+    top:60%;
+    font-size: 26px;
+    color:#A6A6A6;
+
+}
+.hengpingIcon{
+    height:100%;
+    width:100%;
+    top: 50%;
+    left: 50%;
+    text-align:center;
+}

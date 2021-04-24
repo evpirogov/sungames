@@ -1,0 +1,40 @@
+@import "../../../styles/prototype";
+.prototype {
+  @include prototype
+}
+
+.featured {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  .blockHeader {
+    padding: 2px 10px 5px;
+
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(45deg,
+            rgba(248,191,68,1) 0%,
+            rgba(249,206,76,1) 40%,
+            rgba(255,255,255,0) 50%,
+            rgba(255,255,255,0) 100%);
+    //background: linear-gradient(45deg,
+    //        #FFB800 0%,
+    //        #ffd400 30%,
+    //        rgba(255,255,255,0) 40%,
+    //        rgba(255,255,255,0) 100%);
+    text-shadow: 2px 2px 2px orange;
+  }
+
+  .slider {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 1280px;
+    margin-top: 10px;
+  }
+}

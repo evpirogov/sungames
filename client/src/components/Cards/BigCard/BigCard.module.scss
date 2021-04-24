@@ -1,0 +1,71 @@
+.card{
+  display: inline-block;
+  position: relative;
+
+  width: 310px;
+  height: 170px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+
+  .cardStats{
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 5px 10px;
+    bottom: 0;
+
+    align-items: center;
+    background: linear-gradient(0deg, rgba(3,0,51,0.6) 0%, rgba(255,255,255,0) 100%);
+    color: white;
+
+    .cardName{
+      color: white;
+      font-size: 24px;
+    }
+
+    .cardLikes {
+      //font-weight: bold;
+      vertical-align: sub;
+      color: white;
+      font-size: 17px;
+      text-align: right;
+      font-weight: bold;
+    }
+
+    .playButton {
+      display: none;
+
+      position: absolute;
+      padding: 2px 20px 5px;
+      right: 5px;
+      bottom: 5px;
+
+      border-radius: 5px;
+      background-color: red;
+
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  &:hover {
+    .cardLikes {
+      display: none;
+    }
+
+    .playButton {
+      display: block;
+    }
+  }
+}

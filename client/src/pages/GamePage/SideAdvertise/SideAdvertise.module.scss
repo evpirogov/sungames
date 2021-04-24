@@ -1,0 +1,23 @@
+@import "./src/styles/prototype";
+
+.prototype{
+  @include prototype;
+}
+
+.advertise {
+  position: sticky;
+  top: 10px;
+
+  .ads1 {
+    //display: block;
+    margin: 60px 0 10px;
+    width: 320px;
+    height: 480px;
+  }
+
+  .ads2 {
+    //display: block;
+    width: 320px;
+    height: 320px;
+  }
+}
